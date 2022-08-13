@@ -1,0 +1,28 @@
+{
+  "name": "fhirtree",
+  "version": "0.0.0",
+  "description": "Tree of All Resources in a FHIR Directory",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "fhirclient": "^2.5.0",
+    "material-ui-treeview": "3.3.0",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-sortable-tree": "^2.2.0",
+    "react-sortable-tree-theme-file-explorer": "2.0.0",
+    "react-treebeard": "3.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
