@@ -1,28 +1,33 @@
 {
-  "name": "fhirtree",
-  "version": "0.0.0",
-  "description": "Tree of All Resources in a FHIR Directory",
+  "name": "material-ui-treeview",
+  "version": "1.0.0",
+  "description": "",
   "keywords": [],
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "dependencies": {
-    "@material-ui/core": "^1.0.0",
-    "fhirclient": "^2.5.0",
-    "material-ui-treeview": "3.3.0",
-    "react": "16.8.0",
-    "react-dom": "16.8.0",
-    "react-sortable-tree": "^2.2.0",
-    "react-sortable-tree-theme-file-explorer": "2.0.0",
-    "react-treebeard": "3.2.4"
+    "@material-ui/core": "4.11.3",
+    "@mui/base": "^5.0.0-alpha.92",
+    "material-ui-treeview": "5.0.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.1",
+    "react-async": "^10.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.10",
-    "@babel/node": "^7.18.10",
-    "react-scripts": "1.0.0"
+    "typescript": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
